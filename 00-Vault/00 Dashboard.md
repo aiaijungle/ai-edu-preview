@@ -8,13 +8,13 @@ tags: [dashboard, moc]
 
 ## 이 저장소는 무엇인가
 
-`index.html` 하나로 구성된 **육아/교육 무료책 미리보기 페이지** — "AI를 부리는 우리 아이 교육 비밀". 최근 커밋(`720a0d7`)이 "제목 확정: 가제 제거"인 걸 보면 이 저장소가 해당 책의 **가제 단계 프리뷰**였던 것으로 보임.
+`index.html` 하나(212줄)로 구성된 **육아/교육 무료책 미리보기 페이지** — "AI를 부리는 우리 아이 교육 비밀". 마지막 커밋(`720a0d7`, 2026-06-09)이 "제목 확정: 가제 제거".
 
-## vibe-ebook과의 중복 가능성 (중요)
+## vibe-ebook의 구버전으로 확인됨 (2026-07-17)
 
-`aiaijungle/vibe-ebook`의 `parenting/index.html`이 같은 주제("AI를 부리는 아이가 이긴다", 정식 제목: "원질(原質), AI를 부리는 아이가 이긴다 — AI 바이블 6권")로 이미 정식 배포 중임. 제목이 "우리 아이 교육 비밀"(가제) → "원질, AI를 부리는 아이가 이긴다"(확정)로 바뀐 것이라면, **이 저장소는 구버전 프리뷰이고 vibe-ebook 쪽이 최신 소스오브트루스**일 가능성이 높음.
+`aiaijungle/vibe-ebook`의 `parenting/index.html`(1117줄, 정식 제목 "원질(原質), AI를 부리는 아이가 이긴다 — AI 바이블 6권", 2026-07-08 최종 수정, 정식 배포 URL `aiaijungle.github.io/vibe-ebook/parenting/`)과 대조한 결과, **이 저장소는 한 달 전 가제 단계 프리뷰이고 vibe-ebook 쪽이 최신 정식본**으로 확인됨.
 
-이 저장소를 계속 별도로 운영할지, 아카이브(4-Archives) 처리할지 결정 필요.
+결정(2026-07-17): 콘텐츠는 건드리지 않고 이 사실만 기록. 리다이렉트 전환이나 아카이브 처리는 보류 상태.
 
 ## PARA 연동
 
@@ -22,4 +22,4 @@ tags: [dashboard, moc]
 
 ## 관련 저장소
 
-- `aiaijungle/vibe-ebook` — `parenting/index.html` (정식 배포로 추정)
+- `aiaijungle/vibe-ebook` — `parenting/index.html` (정식 배포, 소스오브트루스)
